@@ -20,6 +20,7 @@ body {
   position: fixed;
   left: 0;
   top: 0;
+  height: 100px;
   text-align: center;
   width: 100%;
   z-index: 10000;
@@ -39,7 +40,7 @@ li {
   text-transform: uppercase;
 }
 
-#logo {
+#logo:hover {
   color: #FCA311;
   font-family: 'Amatic SC', cursive;
   font-size: 32px;
@@ -138,7 +139,6 @@ footer{
 {
   background: -webkit-linear-gradient(orange,white);
 }
-li:hover{
-  font-color:orange;
-  font-style: Garamond;
+/*#logo:hover{
+  background:black;
 }
