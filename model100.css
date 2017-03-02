@@ -1,0 +1,80 @@
+body {
+  background-color: #FFF;
+  margin: 0;
+  padding: 0;
+}
+.navigation {
+  background-color: rgba(255, 255, 255, 0.7);
+  overflow-y: auto;
+  position: fixed;
+  left: 0;
+  top: 0;
+  text-align: center;
+  width: 100%;
+  z-index: 10000;
+}
+
+ul {
+  padding: 0;
+}
+
+li {
+  color: #14213D;
+  display: inline-block;
+  font-family: 'Abel', sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  margin: 16px 20px;
+  text-transform: uppercase;
+}
+#logo {
+  color: #FCA311;
+  font-family: 'Amatic SC', cursive;
+  font-size: 32px;
+  padding: 0px 50px;
+}
+
+#cover {
+  background:url("puma_compressor_52cfm_alloy_guage.jpg") no-repeat  center bottom ;
+  background-size:cover;
+  height: 900px;
+  position: relative;
+  top: -55px;
+  width: 100%;
+  background-attachment:fixed;
+}
+
+.cred{
+  color:black;
+  font-family: 'Abel', sans-serif;
+  font-size: 28px;
+  font-weight: 300;
+  text-align: center;
+}
+
+.cover-content {
+  box-sizing: border-box;
+  margin: 0 auto;
+  position: relative;
+  text-align: center;
+  top: 280px;
+  width: 70%;
+}
+
+td {
+  font-size:14px;
+  text-align:center;
+}
+
+#pic{
+  float:left;
+}
+
+
+.hel{
+ color:#14213D;
+ font-size:40px;
+ font-family:Abel;
+ font-weight:bold;
+}
+
